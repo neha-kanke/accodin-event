@@ -1,0 +1,37 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+}
+
+.accodmain{
+	margin: 50px auto;
+	padding: 20px;
+	background-color: blueviolet;
+	color: rosybrown;
+	border: 2px dotted red;
+	width: 600px;
+	font-size: 20px;
+	font-style:italic;
+}
+.accodhead{
+	padding: 20px;
+	background-color: aquamarine;
+	color: black;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+.accodbody{
+	padding: 30px;
+	font-size: 25px;
+	font-style:italic;
+	font-weight: bold;
+}
+.accodhead+.accodbody{
+	display: none;
+}
+
+	.accodhead.active+.accodbody{
+		display: block;
+	}
